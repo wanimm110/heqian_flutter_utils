@@ -118,7 +118,7 @@ class LoadingStatusState extends State<LoadingCall> with _Call {
       child: Center(
         child: Directionality(
           textDirection: TextDirection.ltr,
-          child: Text("暂无数据"),
+          child: Text("NO DATA YET"),
         ),
       ),
     );
@@ -129,7 +129,7 @@ class LoadingStatusState extends State<LoadingCall> with _Call {
       child: Center(
         child: Directionality(
           textDirection: TextDirection.ltr,
-          child: Text("错误 :$error"),
+          child: Text("error :$error"),
         ),
       ),
     );
